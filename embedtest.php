@@ -1,6 +1,14 @@
 <?php 
 	define ("TITLE","SeeIt");
 	include("embedfunction.php");
+ 
+						
+						if(isset($_POST["run_iframe"])){
+							afterrun();
+							
+						}
+						
+				
 	
 ?>
 <!DOCTYPE HTML>
@@ -128,14 +136,7 @@
 			                  rows = "40"
 			                  cols = "80">Your text here</textarea>
 			        </p>-->
-			    <?php 
-						/*$stri="abhithokuchnih"
-						if(isset($_POST["run_iframe"])){
-							$stri=afterrun();
-							
-						}
-						*/
-				?>
+
 
 		
 	

@@ -3,6 +3,11 @@
 	function afterrun(){
 		$codestring=$_POST["entered_code"];
 		
-		return $codestring;
+		$myfile = fopen("embededpage.html", "w") or die("Unable to open file!");
+				//echo fread($myfile,filesize("test.txt"));
+				fwrite($myfile, $codestring);
+				fclose($myfile);
+		
+		
 	}
 ?>
