@@ -1,5 +1,5 @@
 <?php 
-	define ("TITLE","SeeIt");
+	define ("TITLE","SeeItinHtml");
 	include("embedfunction.php");
  
 						
@@ -34,7 +34,7 @@
 		}
 		#textareacontainer, #iframecontainer {
 		  float:left;
-		  padding-top:1cm;
+		  
 		  height:80%;
 		  /*height:100%;*/
 		  width:50%;
@@ -102,12 +102,12 @@
   </style>
 
   <body>
-    <h1>web page tester</h1>
+    <h1>html tester</h1>
 	
 	    <div id="container">
 	      
 	        <div id="textareacontainer">
-	          	
+	          	<h3>here you write</h3>
 	        	<div id="textarea">
 					<div id="textareawrapper">
 					        
@@ -143,6 +143,7 @@
 
 			</div>
 			<div id="iframecontainer">
+				<h3>here you behold</h3>
 			    <div id="iframe">
 			      <div id="iframewrapper">
 			      	<?php
